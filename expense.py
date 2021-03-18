@@ -48,7 +48,7 @@ netflix = float(netflix)
 cameo = input("Cameo Payment: $")
 cameo = float(cameo)
 #print(type(cameo))
-ny_life = input("NY life Insurance payment: $")
+ny_life = input("NY Life Insurance payment: $")
 ny_life = float(ny_life)
 #print (type(ny_life))
 
@@ -66,18 +66,26 @@ massage = float(massage)
 
 water = input("Water Payment: $")
 water = float(water)
-#print(type(water))
 
+#print(type(water))
 gas = input("Gas payment: $")
 gas = float(gas)
 #print(type(gas))
 
-unplan = input("Unplaned expenses: $")
+fuel = input("Fuel Cost: $")
+fuel = float(fuel)
+
+phone = input("Phone Bill: $")
+phone = float(phone)
+
+grocery = input("Grocery cost: $")
+grocery = float(grocery)
+
+unplan = input("Unplaned Expenses: $")
 unplan = float(unplan)
-#print(type(unplan))
 
 #Calculations performed and inserted in expence varitable
-expense = day_care + house + web + hulu + xm + car + netflix + cameo + ny_life + health + car_insure + massage + water + gas + unplan
+expense = day_care + house + web + hulu + xm + car + netflix + cameo + ny_life + health + car_insure + massage + water + gas + fuel + phone+ grocery + unplan
 expense = float(expense)
 
 #limit output to 2 decimel places
@@ -88,8 +96,6 @@ print(f"Total payment for values entered: ${expense}")
 expense = float(expense)
 
 #Money left after expenses
-print(type(pay))
-print(type(expense))
 left_pay = float(pay - expense)
 
 
@@ -97,4 +103,3 @@ left_pay = float(pay - expense)
 print("")
 left_pay = "{:.2f}".format(left_pay)
 print(f"Money after expenses ${left_pay}")
-
