@@ -66,9 +66,9 @@ massage = float(massage)
 
 water = input("Water Payment: $")
 water = float(water)
-
 #print(type(water))
-gas = input("gas payment: $")
+
+gas = input("Gas payment: $")
 gas = float(gas)
 #print(type(gas))
 
