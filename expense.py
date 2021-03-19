@@ -1,6 +1,6 @@
 #Author: Paul Knuckey
 #Project: Bill Calculator
-#Date: March 3, 2021
+#Date: March 19, 2021
 #An simple blil calculator, I know people who strugle with this.
 #Done to work on my pyhon skills as I am way out of practice
 #Will update as time goes on
@@ -13,80 +13,66 @@ print("")
 #This is done through most of the app several times
 #it's all the same
 #collect ammont, convert string to float
-pay = input("How much did you get paid? $")
-pay = float(pay)
+pay = float(input("How much did you get paid? $"))
 #test the conversion took
 #print(type(pay))
 
-day_care = input("Day Care Payment: $")
-day_care = float(day_care)
+day_care = float(input("Day Care Payment: $"))
 #input(type(day_care))
 
-house = input("House Payment: $")
-house = float(house)
+house = float(input("House Payment: $"))
 #print(type(house))
 
-web = input("Internet Payment: $")
-web = float(web)
+web = float(input("Internet Payment: $"))
 #print(type(web))
 
-hulu = input("Hulu Payment: $")
-hulu = float(hulu)
+hulu = float(input("Hulu Payment: $"))
 #print(type(hulu))
 
-xm = input("Xm Radio payment: $")
-xm = float(xm)
+xm = float(input("Xm Radio payment: $"))
 #print(type(xm))
-car = input("Car Payment: $")
-car = float(car)
+
+car = float(input("Car Payment: $"))
 #print(type(car))
 
-netflix = input("Netflix Payment: $")
-netflix = float(netflix)
+netflix = float(input("Netflix Payment: $"))
 #print(type(netflix))
 
-cameo = input("Cameo Payment: $")
-cameo = float(cameo)
+cameo = float(input("Cameo Payment: $"))
 #print(type(cameo))
-ny_life = input("NY Life Insurance payment: $")
-ny_life = float(ny_life)
+
+ny_life = float(input("NY Life Insurance payment: $"))
 #print (type(ny_life))
 
-health = input("Health Payment: $")
-health = float(health)
+health = float(input("Health Payment: $"))
 #print(type(health))
 
-car_insure = input("Car Insurance payment: $")
-car_insure = float(car_insure)
+car_insure = float(input("Car Insurance payment: $"))
 #print(type(car_insure))
 
-massage = input("Massage Envy Payment: $")
-massage = float(massage)
+massage = float(input("Massage Envy Payment: $"))
 #print(type(massage))
 
-water = input("Water Payment: $")
-water = float(water)
-
+water = float(input("Water Payment: $"))
 #print(type(water))
-gas = input("Gas payment: $")
-gas = float(gas)
+
+gas = float(input("Gas payment: $"))
 #print(type(gas))
 
-fuel = input("Fuel Cost: $")
-fuel = float(fuel)
+fuel = float(input("Fuel Cost: $"))
+#print(type(fuel))
 
-phone = input("Phone Bill: $")
-phone = float(phone)
+phone = float(input("Phone Bill: $"))
+#print(type(phone))
 
-grocery = input("Grocery cost: $")
-grocery = float(grocery)
+grocery = float(input("Grocery cost: $"))
+#print(type(grocery))
 
-unplan = input("Unplaned Expenses: $")
-unplan = float(unplan)
+unplan = float(input("Unplaned Expenses: $"))
+#print(type(unplan))
 
 #Calculations performed and inserted in expence varitable
-expense = day_care + house + web + hulu + xm + car + netflix + cameo + ny_life + health + car_insure + massage + water + gas + fuel + phone+ grocery + unplan
-expense = float(expense)
+expense = float(day_care + house + web + hulu + xm + car + netflix + cameo + ny_life + health + car_insure + massage + water + gas + fuel + phone+ grocery + unplan)
 
 #limit output to 2 decimel places
 expense = "{:.2f}".format(expense)
